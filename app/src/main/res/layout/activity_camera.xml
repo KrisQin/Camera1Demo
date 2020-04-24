@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_marginTop="30dp"
+        android:layout_width="420dp"
+        android:layout_height="540dp">
+
+        <com.qmdluck.camera1demo.CameraSurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="相机图片如下："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/image"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+
+
+
+</LinearLayout>
